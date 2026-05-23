@@ -1,0 +1,115 @@
+aid: hippocratic-ai
+url: https://raw.githubusercontent.com/api-evangelist/hippocratic-ai/refs/heads/main/apis.yml
+name: Hippocratic AI
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+description: Hippocratic AI builds safety-focused generative AI agents for non-diagnostic
+  healthcare tasks, powered by its Polaris constellation architecture. Polaris 5.0 is a
+  multi-trillion-parameter constellation of specialized models clinically validated by U.S.-licensed
+  clinicians. Hippocratic AI sells agents such as Nurse Co-Pilot and AI Front Door to health
+  systems, payors, and life-sciences organizations through enterprise sales rather than a
+  self-service public API.
+tags:
+  - Healthcare
+  - Generative AI
+  - Healthcare Agents
+  - Clinical AI
+  - Patient Engagement
+  - Voice AI
+  - Safety
+  - HIPAA
+created: '2026-05-23'
+modified: '2026-05-23'
+specificationVersion: '0.19'
+apis: []
+common:
+  - type: Website
+    url: https://www.hippocraticai.com/
+  - type: Login
+    url: https://safetyportal.hippocraticai.com/signin
+  - type: SafetyPortal
+    url: https://safetyportal.hippocraticai.com/
+  - type: Contact
+    url: https://www.hippocraticai.com/contact
+  - type: Careers
+    url: https://www.hippocraticai.com/careers
+  - type: Newsroom
+    url: https://www.hippocraticai.com/news
+  - type: Research
+    url: https://www.hippocraticai.com/research
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/hippocratic-ai-health
+  - type: Twitter
+    url: https://twitter.com/hippocraticai
+  - type: Features
+    data:
+      - name: Polaris Constellation Architecture
+        description: Multi-trillion-parameter constellation of specialized healthcare models with a
+          large core model and supporting expert models for tasks such as medication, labs, EHR
+          interaction, and empathy.
+      - name: Polaris 5.0
+        description: Latest generation, a ~5T-parameter constellation built around a 700B-parameter
+          core, reported to outperform major frontier models on clinical accuracy, safety,
+          regulatory compliance, and empathy.
+      - name: AI Front Door
+        description: Voice agent for inbound patient phone calls, scheduling, intake, and triage
+          handoff.
+      - name: Nurse Co-Pilot
+        description: AI nurse agent that supports patient-facing nursing workflows, with launch
+          partners including Cincinnati Children's.
+      - name: 1000+ Healthcare Agents
+        description: Library of specialized agents across provider, payor, and pharma sectors.
+      - name: Clinical Validation
+        description: Agents validated by more than 7,500 U.S.-licensed clinicians across more than
+          725,000 test calls.
+      - name: Safety Guardrails
+        description: Hippocratic AI explicitly excludes diagnosis, prescription, hospice care, mental
+          health disorders, and pediatric care under age two from agent scope.
+  - type: UseCases
+    data:
+      - name: Inbound Patient Calls
+        description: AI Front Door handles inbound patient phone interactions for health systems.
+      - name: Care Management
+        description: Outbound chronic-care management, post-discharge follow-up, and adherence calls.
+      - name: Patient Engagement at Scale
+        description: Donor and patient outreach (for example Gift of Life Marrow Registry, with more
+          than 550,000 volunteer donors).
+      - name: Biopharma and Medtech
+        description: Agentic AI for biopharma and medtech workflows under a global collaboration with
+          BCG.
+  - type: Customers
+    data:
+      - name: Cincinnati Children's
+        description: Launch partner for Nurse Co-Pilot and early deployer of AI Front Door.
+      - name: UNC Health
+        description: 20-hospital academic health system partnering for AI-supported inbound phone
+          services.
+      - name: Gift of Life Marrow Registry
+        description: Donor outreach to a registry of more than 550,000 volunteer donors.
+      - name: Boston Consulting Group
+        description: Global strategic collaboration to deploy agentic AI across biopharma and
+          medtech.
+      - name: 50+ Health Systems and Payors
+        description: Hippocratic AI partners with more than 50 health systems, payors, and
+          life-sciences organizations worldwide.
+  - type: Authentication
+    data:
+      - name: No Public Developer API
+        description: Hippocratic AI is not a self-service developer platform; access to Polaris-based
+          agents is through enterprise sales and the Hippocratic Safety Portal for participating
+          clinicians and partners.
+  - type: Compliance
+    data:
+      - name: HIPAA
+        description: Designed for HIPAA-compliant deployments in U.S. healthcare environments.
+      - name: Clinical Safety Validation
+        description: Outputs validated by U.S.-licensed clinicians prior to deployment for each new
+          use case.
+  - type: Funding
+    data:
+      - name: Late-Stage Funded
+        description: Hippocratic AI has raised significant venture capital; latest valuation places
+          it among the highest-valued private healthcare AI companies.
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
