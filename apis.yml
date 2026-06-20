@@ -2,7 +2,7 @@ aid: hippocratic-ai
 url: https://raw.githubusercontent.com/api-evangelist/hippocratic-ai/refs/heads/main/apis.yml
 name: Hippocratic AI
 type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 description: Hippocratic AI builds safety-focused generative AI agents for non-diagnostic
   healthcare tasks, powered by its Polaris constellation architecture. Polaris 5.0 is a
   multi-trillion-parameter constellation of specialized models clinically validated by U.S.-licensed
