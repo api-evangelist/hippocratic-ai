@@ -110,7 +110,7 @@ common:
       - name: Late-Stage Funded
         description: Hippocratic AI has raised significant venture capital; latest valuation places
           it among the highest-valued private healthcare AI companies.
-  - type: LLMsTxt
+  - type: LlmsText
     url: https://hippocraticai.com/llms.txt
 maintainers:
   - FN: Kin Lane
