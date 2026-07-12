@@ -23,6 +23,12 @@ modified: '2026-05-23'
 specificationVersion: '0.19'
 apis: []
 common:
+  - type: VulnerabilityDisclosure
+    url: security/hippocratic-ai-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/hippocratic-ai-domain-security.yml
+  - type: Blog
+    url: https://hippocraticai.com/feed/
   - type: Website
     url: https://www.hippocraticai.com/
   - type: Login
