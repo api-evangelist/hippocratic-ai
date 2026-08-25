@@ -5,7 +5,7 @@
       "source": "https://hippocraticai.com/feed/",
       "feed_url": "https://hippocraticai.com/feed/",
       "title": "",
-      "saved": 8,
+      "saved": 0,
       "method": "feed"
     },
     {
@@ -17,6 +17,6 @@
       "error": "parse_failed"
     }
   ],
-  "fetched": "2026-08-15T12:11:08Z",
+  "fetched": "2026-08-22T20:08:02Z",
   "post_count": 21
 }
