@@ -16,6 +16,13 @@
       "method": "feed"
     },
     {
+      "source": "https://hippocraticai.com/press/feed/",
+      "feed_url": "https://hippocraticai.com/press/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
       "source": "https://raw.githubusercontent.com/api-evangelist/hippocratic-ai/refs/heads/main/apis.yml",
       "feed_url": "https://raw.githubusercontent.com/api-evangelist/hippocratic-ai/refs/heads/main/apis.yml",
       "title": "",
@@ -23,7 +30,7 @@
       "method": "none"
     }
   ],
-  "fetched": "2026-10-10T13:15:00Z",
+  "fetched": "2026-10-17T14:53:57Z",
   "post_count": 21,
   "feed_nature": "undetermined",
   "feed_nature_basis": null,
